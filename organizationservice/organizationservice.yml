@@ -12,3 +12,11 @@ spring:
     username: sa
     driver-class-name: org.h2.Driver
     platform: h2
+
+# Service discovery
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
